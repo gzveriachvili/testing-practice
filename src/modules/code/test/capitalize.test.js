@@ -1,4 +1,4 @@
-const cap = require('../capitalize');
+const cap = require('../code/capitalize');
 
 test('capitalizes the inputted string', () => {
   expect(cap('something')).toMatch('Something');
